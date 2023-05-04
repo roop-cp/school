@@ -1,0 +1,152 @@
+body,ul,li,h1,h2,h3{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    position:relative;
+    background-color: rgb(148, 118, 74);
+    width:100%;
+    z-index: 1;
+    padding: 10px;
+}
+body > header > h2{
+    text-align: center;
+    color: #fff;
+    font-weight: .5rem;
+    font-size: 1rem;
+    padding: 10px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+.school{
+    position: relative;
+   /* max-width:100%; */
+    
+}
+.school img{
+    /* position: absolute; */
+    /* max-height: 100%; */
+    width:100%;
+    margin: 0;
+}       
+        
+/* .pop{
+    position: absolute;
+    top:-200px;
+    width:100px;
+    margin: 0 auto;
+    text-align: center;
+} */
+.container{
+    position: absolute;
+    background-color: green;
+    padding: 5px;
+    box-sizing: border-box;
+    top:70%;
+    width: 60%;
+    height:30%;
+    margin: 0 20%;
+    border-radius: 80%;
+
+}
+.container img{
+    border-radius: 50%;
+    height:90%;
+
+}
+.container{
+    top:-400px;
+    animation: jump 5s ease forwards,
+               swing 3s 4s ease forwards;
+}
+
+@keyframes jump{
+    0%{opacity: 0;}
+    70%{transform: translateY(650px)}
+    100%{transform: translateY(600px); opacity: 1;}
+}
+@keyframes swing{
+ 0%{transform: translateY(600px) rotateZ(0deg)}
+ 50%{transform: translateY(600px) rotateZ(30deg)}
+ 70%{transform: translateY(600px) rotateZ(-30deg)}
+ 100%{transform: translateY(600px) rotateZ(0)}
+}
+
+
+nav{
+    background-color: rgb(243, 236, 229);
+    padding: 18px;
+    
+}
+nav ul{
+   
+    max-width:1200px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+nav li{
+ 
+    display: inline-block;
+    width:20%;
+    font-size: 16px;
+    text-align: center;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(116, 44, 44);
+}
+nav li a:hover{
+    color: rgb(237, 11, 11);
+}
+main{
+    max-width: 100%;
+    width:1200px;
+    margin:40px auto;
+    padding:0 20px;
+    box-sizing: border-box;
+}
+article h3{
+     color:rgb(155, 80, 50);
+     font-size: 1.2rem;
+}
+article p{
+    font-size: .8rem;
+    line-height: 1.2rem; 
+    
+}
+#contact{
+    /* max-width: 100%; */
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    text-align: center;
+    margin:10px;
+}
+h3{
+    font-family: cursive;
+    color: rgb(3, 115, 1);
+    padding-bottom: 20px;
+    margin: 0;
+}
+#contact a{
+   margin: 10px;
+   
+}
+
+.footer{
+    /* position: absolute; */
+    width:100%;
+    padding: 20px;
+   background-color: rgb(244, 241, 238);
+   bottom: 0;
+}
+
+.footer p{
+    text-align: center;
+    color: rgb(186, 183, 183);
+    font-size: .7rem;
+}
+
